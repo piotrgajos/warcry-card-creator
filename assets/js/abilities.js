@@ -419,11 +419,9 @@ function getTagRunemarkId(runemark, ability) {
     
     // leader became hero so went back one messing up the order
     if (runemark == "runemarks/black/fighters-leader.svg") {
-        result = result + "Fifteen"
-    }
-    else if (runemark == "runemarks/black/fighters-agile.svg") {
         result = result + "One"
     }
+    
     else if (runemark == "runemarks/black/fighters-ally.svg") {
         result = result + "Two"
     }
@@ -463,6 +461,9 @@ function getTagRunemarkId(runemark, ability) {
    
     else if (runemark == "runemarks/black/fighters-icon-bearer.svg") {
         result = result + "Fourteen"
+        
+        else if (runemark == "runemarks/black/fighters-agile.svg") {
+        result = result + "Fifteen"
     }
     else if (runemark == "runemarks/black/fighters-minion.svg") {
         result = result + "Sixteen"
