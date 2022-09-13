@@ -418,10 +418,10 @@ function getTagRunemarkId(runemark, ability) {
     // each runemark is in order, so we can get the second part based on 
     
     // leader became hero so went back one messing up the order
-    else if (runemark == "runemarks/black/fighters-leader.svg") {
+    if (runemark == "runemarks/black/fighters-leader.svg") {
         result = result + "Fifteen"
     }
-    if (runemark == "runemarks/black/fighters-agile.svg") {
+    else if (runemark == "runemarks/black/fighters-agile.svg") {
         result = result + "One"
     }
     else if (runemark == "runemarks/black/fighters-ally.svg") {
