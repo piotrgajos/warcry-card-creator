@@ -1025,8 +1025,8 @@ function writeControls(cardData) {
     // first we clear all the ability runetags
     // id name is format of tagPrefix followed ny tagSuffix
     tagPrefix = ["one", "two", "three", "four", "five", "six", "seven"];
-    tagSuffix = ["One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten",
-        "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen",
+    tagSuffix = ["Fifteen", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten",
+        "Eleven", "Twelve", "Thirteen", "Fourteen", "One", "Sixteen", "Seventeen", "Eighteen",
         "Nineteen", "Twenty", "Twentyone", "Twentytwo", "Twentythree", "Twentyfour", "Twentyfive"];
 
     for (i in tagPrefix) {
