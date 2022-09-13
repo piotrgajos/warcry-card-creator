@@ -416,8 +416,13 @@ function getTagRunemarkId(runemark, ability) {
     var result = ability;
     // the second part is One to Twentyfive each starting with a capital
     // each runemark is in order, so we can get the second part based on 
-    if (runemark == "runemarks/black/fighters-agile.svg") {
+    
+    // leader became hero so went back one messing up the order
+    else if (runemark == "runemarks/black/fighters-leader.svg") {
         result = result + "Fifteen"
+    }
+    if (runemark == "runemarks/black/fighters-agile.svg") {
+        result = result + "One"
     }
     else if (runemark == "runemarks/black/fighters-ally.svg") {
         result = result + "Two"
@@ -455,10 +460,7 @@ function getTagRunemarkId(runemark, ability) {
     else if (runemark == "runemarks/black/fighters-gargantuan.svg") {
         result = result + "Thirteen"
     }
-    // leader became hero so went back one messing up the order
-    else if (runemark == "runemarks/black/fighters-leader.svg") {
-        result = result + "One"
-    }
+   
     else if (runemark == "runemarks/black/fighters-icon-bearer.svg") {
         result = result + "Fourteen"
     }
